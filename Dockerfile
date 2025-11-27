@@ -10,8 +10,5 @@ RUN apk add --no-cache \
     jpeg-dev \
     pango-dev \
     giflib-dev
-
-RUN npm install -g n8n-nodes-pdf-toolkit n8n-nodes-pdf-to-images
-
 # Tekrar güvenli kullanıcıya dön
 USER node
